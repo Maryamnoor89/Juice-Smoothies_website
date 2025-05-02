@@ -1,0 +1,90 @@
+Here are some types of juices categorized based on ingredients:
+
+1. Fruit Juices 🍎🍊
+Orange Juice 🟠 *
+Apple Juice 🍏 *
+Mango Juice 🥭 *
+Pineapple Juice 🍍 *
+Pomegranate Juice 🍇 *
+Watermelon Juice 🍉 *
+Grape Juice 🍇 *
+Strawberry Juice 🍓 *
+Lemon Juice (Lemonade) 🍋 *
+cherry juice *
+
+2. Vegetable Juices 🥕🥒
+Carrot Juice 🥕 *
+Tomato Juice 🍅 *
+Cucumber Juice 🥒
+Beetroot Juice 🍠
+Spinach Juice 🌿
+Celery Juice
+
+3. Mixed Juices (Fruit + Vegetable) 🥭🥕
+Carrot-Orange Juice 🥕🟠
+Apple-Beet-Carrot Juice (ABC Juice) 🍏🍠🥕
+Green Detox Juice (Spinach, Cucumber, Apple, Lemon) 🌿🥒🍏🍋
+Pineapple-Cucumber Juice 🍍🥒
+
+4. Herbal & Detox Juices 🌿
+Aloe Vera Juice 🌱
+Wheatgrass Juice 🌿
+Mint Lemon Juice 🍋🌿
+Ginger Lemon Juice 🍋🫚
+Smoothies:
+Berry Blast Smoothie
+
+Classic Shakes
+Chocolate Shake 🍫
+Vanilla Shake 🍦
+Strawberry Shake 🍓
+Banana Shake 🍌
+Mango Shake 🥭
+
+Nutty & Creamy Shakes
+
+Peanut Butter Shake 🥜
+Almond Shake 🌰
+Cashew Shake
+Hazelnut Chocolate Shake
+Coconut Shake 🥥
+
+Crunchy bites
+
+Cookies 🍪 – Chocolate chip, Oreos, shortbread
+Brownies 🍫 – Fudgy or classic
+Waffles 🧇 – Drizzled with syrup or chocolate
+Donuts 🍩 – Glazed, filled, or sprinkled
+Pastries 🥐 – Croissants, Danish pastries
+Cakes 🎂 – Cheesecake, chocolate cake, sponge cake
+
+Donut bliss
+
+Classic Flavors:
+Glazed 🍯
+Chocolate 🍫
+Vanilla
+Strawberry 🍓
+Maple 🍁
+Cinnamon Sugar
+Powdered Sugar
+
+Home :
+Banner (Hero section) *
+About/Introduction
+Process * 
+Featured products *
+Fan favourite 
+Home delivery + fresh pick from shop 
+A section where videos are stack from side by side with their texts *
+Branches *
+Call to action (Subscribe , order, explore more)*
+Blog news (For updates , recipes , news)
+Footer (Contact details , social media links , FAQs , terms and condition , copyrighht info)
+
+Colors : 
+Watermelon red = #ff3b3f
+bright yellow = #ffd700
+green = #32cd32
+grey = #333333
+cream colour = #fff8e7

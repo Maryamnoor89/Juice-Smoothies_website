@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',serif;
+    text-decoration: none;
+}
+.start h1{
+    color: #ff3b3f;
+    font-size: 40px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px ;
+    margin: 20px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 50px 20px 50px;
+    margin-top: -20px;
+
+}
+.start p{
+    /* padding: 0 50px 20px 50px; */
+    text-align: justify;
+    color: #333333;
+    
+}
+.History{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    /* min-height: 300px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.both-area{
+    width: 90%;
+    height:400px;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.owner-pic{
+    width: 30%;
+    height: 400px;
+    display: flex;
+    
+}
+.owner-pic img:hover {
+    
+    transform: translateY(-5px); 
+    box-shadow: 8px 8px 20px rgba(0, 0, 0, 0.3); 
+}
+.text-area{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    /* background-color: grey; */
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    position: relative;
+    left: -35px;
+    text-align: justify;  
+    color: #333333;
+}
+.owner-pic img{
+    width: 80%;
+    height: 400px;
+    display: flex;
+    border-radius: 10px;
+    border: 4px double #ffd700;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 5px, 5px, 15px rgba(0,0,0,0.2);
+}
+#h2{
+    color: #333333;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px ;
+    margin: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.hr-01{
+    width: 50%;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #ffd700;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+.brand-story img{
+    width: 300px;
+    height: 100%;
+    
+}
+.brand-story{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-bottom: 10px;
+    flex-direction: column;
+
+}
+.brand-story p{
+    color: #333333;
+    /* padding: 40px; */
+    padding: 0 50px 20px 50px;
+    text-align: justify;
+}
+
+.circle-01{
+    background-color: #ffd700;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin: 20px 20px 20px 30px;
+    
+}
+.circle-02{
+    background-color: #ffd700;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 30px 20px 100px 180px;
+    position: absolute;
+    /* right: -1px; */
+    
+}
+.procedure{
+    /* background-color: aqua; */
+    height: 100%;
+    width: 100%;
+    
+}
+.second-last-img img{
+    width: auto;
+    height: 250px;
+    margin-top: -22%;
+    margin-left: -1%;
+    /* background-color: #ff3b3f; */
+    position: absolute;
+}
+.second-last-img-2 img{
+    width: auto;
+    height: 220px;
+    margin-top: -14%;
+    /* margin-bottom: 100%; */
+    margin-left: 17%;
+    /* background-color: #ff3b3f; */
+    position: absolute;
+}
+.text{
+    /* display: flex;*/
+    position: absolute;
+    margin-top: -11.7%;
+    flex: wrap;
+    margin-left: 41%;
+    /* background-color: aqua; */
+    padding: 30px ;
+    text-align: justify;
+    /* margin-right: ; */
+}
+.text h1{
+    color: #ff3b3f;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+.text p{
+    color: #333333;
+}
+
+.second-last-img-3 img{
+    width: auto;
+    height: 270px;
+    margin-top: -22%;
+    margin-left: 15px;
+    /* background-color: #ff3b3f; */
+    position: absolute;
+}
+.second-last-img-4 img{
+    width: auto;
+    height: 220px;
+    margin-top: -14%;
+    /* margin-bottom: 100%; */
+    margin-left: 16%;
+    /* background-color: #ff3b3f; */
+    position: absolute;
+
+}
+
+.second-last-img-5 img{
+    width: auto;
+    height: 200px;
+    margin-top: -22%;
+    margin-left: -1%;
+    /* background-color: #ff3b3f; */
+    position: absolute;
+}
+.second-last-img-6 img{
+    width: 250px;
+    height: 250x;
+    margin-top: -15%;
+    /* margin-bottom: 100%; */
+    margin-left: 19%;
+    /* background-color: #ff3b3f; */
+    position: absolute;
+
+}
+.common-div{
+    /* background-color: aqua; */
+    margin-bottom: 4%;
+}
+.last-hr{
+    width: 70%;
+    height: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid #ffd700;
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+.common-div-2{
+    margin-bottom: 10%;
+}
+.last-p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-align: justify;
+    padding: 0px 90px 20px 90px;
+    font-size: 14px;
+    /* margin-bottom: 15px; */
+}
+.navbar{
+    background-color: #ff3b3f;
+    /* display: flex; */
+    /* width: 100%;
+    height: 50%; */
+    height: 40px;
+    width: auto;
+    margin-top: 30px;
+    margin-bottom: -6%;
+}
+.logo{
+    width: 110px;
+    height: 110px;
+    display: inline block;
+    display: flex;
+    position: relative;
+    /* background-color: aqua; */
+    /* width: 100px; */
+    margin-top: -84px;
+    margin-left: 10px;    
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 70%;
+    padding-top: 6px;
+    cursor: pointer;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    align-items: right;
+    
+}
+li a{
+    color: white;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.marquee {
+    /* top: 0;  Position at the top of the page */
+    left: 0;  /* Start from the left */
+    width: 100%;  /* Full width */
+    overflow: hidden;
+    white-space: nowrap;
+    animation: marquee 8s linear infinite;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: -20px;  /* Ensure no margin affects it */
+    z-index: 100;  /* Ensure it stays on top of other content */
+    height: 100%;  /* Fill the container height */
+    line-height: 30px; 
+    
+}
+
+@keyframes marquee {
+    from { transform: translateX(100%); }
+    to { transform: translateX(-100%); }
+}
+body {
+    margin-top: 23px; 
+}
+.marquee-container {
+    position: absolute;
+    top: 1px;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+    height: 30px;
+}
