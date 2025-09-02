@@ -23,7 +23,7 @@
                 <li><a href="./home.html">Home</a></li>
                 <li><a href="./aboutus.html">About</a></li>
                 <li><a href="./menu.html">Menu</a></li>
-                <li><a href="./contactus.html">Contact us</a></li>
+                <li><a href="./contactus.html">Order Now</a></li>
                 <li><a href="./services.html">Services</a></li>                
             </ul>
         </div>
@@ -37,11 +37,14 @@
         </video>
         <div class="text-overlay">
             <p>Sip the <span style="color: #ff3b3f; font-family: 'Allura'; font-size: 40px;">freshness</span></p>
-            <h1>Taste the <span style="color: #ffd700; font-family: 'Allura';font-size: 80px;">Happiness</span></h1>
-            <button><a href="menu.html">Get your refreshment now!</button></a>
+            <h1 id="text-part">Taste the <span class="highlight" style="color: #ffd700; font-family: 'Allura';font-size: 80px;">Happiness</span></h1>
+            <button id="btnbtn"><a href="menu.html">Get your refreshment now!</a></button>
         </div>
-       </div>
-       <div class="Process">
+        </div>
+
+        <img src="Images/Whatsapp.png" id="whtapp" alt="">
+       
+        <div class="Process">
         <div class="left">
             <video autoplay muted loop> 
                 <source src="Videos/pouring.mp4" type="video/mp4">
@@ -56,28 +59,121 @@
 
         Our commitment goes beyond just taste. We believe that every ingredient should come from a place of care and sustainability 🌱. By sourcing our fruits from organic, eco-friendly farms, we ensure that our smoothies not only benefit your body but also contribute to the well-being of the planet 🌍. Each blend is crafted with love, so when you take a sip, you're supporting a cycle of goodness that starts from the earth and ends with you 🌸. We're proud to offer a product that’s as good for you as it is for the environment 🌎.</p>
         
-        <hr>
+        <hr id="horizontal_hr">
         </div>
         
         </div>
-        <div class="line"></div>
+        <hr id="line_side">
         <div> </div>
 
         <h1 id="top-blends">Top Blends</h1>
-        
-        <div class="card-container">
-            <div class="card">
-                <img src="Images/lime juice.jpg" alt=""> 
-            </div>
 
-            <div class="card">
-                <img src="Images/apple juice.jpg" alt="">
-                
+        <div class="pop-up" id="popupForm">
+        <label for="name" style="font-weight: bold; color: #ff3b3f;">Name:</label>
+        <div class="input_container_nm">
+        <input type="text" id="name" required>
+        </div>
+        
+        <br>
+
+        <label for="number">Phone number:</label>
+        <div class="input-container" style="transform: translateY(-5px);">
+        <input type="tel" id="number">
+        </div>
+
+        <br>
+
+        <label for="address">Address:</label>
+        <div class="input_container">
+        <input type="text" id="address">
+        </div>
+
+        <br>
+
+        <label for="juice">Juice Selection:</label>
+        <div class="input_container">
+        <input type="text" id="juice">
+        </div>
+
+        <br>
+
+        <label for="quantity">Quantity:</label>
+        <div class="input_container">
+        <div class="quantity-selector">
+        <button type="button" id="decrease">-</button>
+        <input type="number" id="quantity" name="quantity" value="1" min="1">
+        <button type="button" id="increase">+</button>
+        </div>
+        </div>
+
+        <label for="instructions" style="font-weight: bold; color: #ff3b3f;">Special instructions: </label>
+        <div class="input_container_inst">
+        <input type="text" id="instructions">
+        </div>
+
+        <br>
+
+        <label for="payment">Payment Method:</label>
+        <div class="input_container">
+        <select id="payment" name="payment">
+        <option value="cod">Cash on Delivery</option>
+        <option value="bank">Pay with Bank Account</option>
+        <option value="jazz">Jazz Cash</option>
+        <option value="easypaisa">Easypaisa</option>
+        </select>
+        </div>
+
+        <button id="ordernow_btn" onclick="closePopup()">Place Order</button>
+        </div>
+
+        <div class="card-container">
+    <!-- Card 1 -->
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="Images/lime juice.jpg" alt="Lime Juice">
+                <span class="hover-text">Click to order</span>
             </div>
-            <div class="card">
-                <img src="Images/cinamon juice.jpg" alt="">
-                
+            <div class="card-back">
+                <h2>Crimson Orchard </h2>
+                <p>“A crisp burst of apple freshness in every sip!”</p>
+                <button onclick="showPopup()">Order Now</button>
             </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="Images/apple juice.jpg" alt="Apple Juice">
+                <span class="hover-text">Click to order</span>
+
+            </div>
+            <div class="card-back">
+                <h2>Zesty Citrus Splash</h2>
+                <p>“Lime’s zesty zing to brighten your day!”</p>
+                <button onclick="showPopup()">Order Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="Images/cinamon juice.jpg" alt="Cinnamon Juice">
+                <span class="hover-text">Click to order</span>
+            </div>
+            <div class="card-back">
+                <h2>Spiced Whirl</h2>
+                <p>“A warm, sweet swirl of cinnamon comfort!”</p>
+                <button onclick="showPopup()">Order Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
             
         </div>
         <div class="card-text-container">
@@ -108,13 +204,13 @@
         <hr id="hr-02">
 
         <h2 id="about-h2">"Our Smoothie Journey: Freshness in Every Pour 🍓🥑"</h2>
-        <div class="About">
         
+        <div class="About">
         <div class="left-img">
         <img src="Images/Final.svg" alt="">
         </div>
         
-        <div class="right-about-text">
+        <div class="right-about-text"> 
             <p>Our journey began on a small family farm, where fresh fruits ripened under the sun and the idea of creating something pure and delicious was born. 🌱✨ What started as a passion for blending farm-fresh ingredients into homemade smoothies soon turned into a mission—to share nature’s best with everyone.</p>
             <br>
             <p>With a vision of health, taste, and quality, we crafted recipes that bring out the real essence of fruits, free from anything artificial. 🍍🥭 Today, our smoothies have become more than just drinks—they’re a lifestyle, a moment of refreshment, and a promise of pure goodness in every sip! 🍹💖</p>
@@ -271,5 +367,11 @@
         <img  src="Images/Location.png" alt="">
         <span>Main bazar, unit 11,  street# 24, near pizzaplex </span>
         </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+        <script src="home.js"></script>
     </body>
     </html>

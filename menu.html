@@ -39,17 +39,76 @@
     <hr class="hr-02">
     </div>  
 
+    <div class="pop-up" id="popupForm">
+        <label for="name" style="font-weight: bold; color: #ff3b3f;">Name:</label>
+        <div class="input_container_nm">
+        <input type="text" id="name" required>
+        </div>
+        
+        <br>
+
+        <label for="number">Phone number:</label>
+        <div class="input-container" style="transform: translateY(-5px);">
+        <input type="tel" id="number">
+        </div>
+
+        <br>
+
+        <label for="address">Address:</label>
+        <div class="input_container">
+        <input type="text" id="address">
+        </div>
+
+        <br>
+
+        <label for="juice">Juice Selection:</label>
+        <div class="input_container">
+        <input type="text" id="juice">
+        </div>
+
+        <br>
+
+        <label for="quantity">Quantity:</label>
+        <div class="input_container">
+        <div class="quantity-selector">
+        <button type="button" id="decrease">-</button>
+        <input type="number" id="quantity" name="quantity" value="1" min="1">
+        <button type="button" id="increase">+</button>
+        </div>
+        </div>
+
+        <label for="instructions" style="font-weight: bold; color: #ff3b3f;">Special instructions: </label>
+        <div class="input_container_inst">
+        <input type="text" id="instructions">
+        </div>
+
+        <br>
+
+        <label for="payment">Payment Method:</label>
+        <div class="input_container">
+        <select id="payment" name="payment">
+        <option value="cod">Cash on Delivery</option>
+        <option value="bank">Pay with Bank Account</option>
+        <option value="jazz">Jazz Cash</option>
+        <option value="easypaisa">Easypaisa</option>
+        </select>
+        </div>
+
+        <button id="ordernow_btn" onclick="closePopup()">Place Order</button>
+        </div>
+
+
     <div class="card-container">
         <div class="card">
-            <img src="Images/orange-juice.jpg" alt="" >
+            <img src="Images/orange-juice.jpg" alt="" onclick="showPopup()">
         </div>
-        <div class="card">
+        <div class="card" onclick="showPopup()">
             <img src="Images/apple juice.jpg" alt="">
         </div>
-        <div class="card">
+        <div class="card" onclick="showPopup()">
             <img src="Images/mango-juice.jpg" alt="">
         </div>
-        <div class="card">
+        <div class="card" onclick="showPopup()">
             <img src="Images/Pineapple-juice.jpg" alt="">
         </div>
     </div>
@@ -112,16 +171,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/lemon.jpg" alt="" >
+            <img src="Images/lemon.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/kiwi juice.jpg" alt="">
+            <img src="Images/kiwi juice.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/cherry cherry.jpg" alt="">
+            <img src="Images/cherry cherry.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/peach.jpg" alt="">
+            <img src="Images/peach.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -153,16 +212,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/carrot.jpg" alt="" >
+            <img src="Images/carrot.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/tomato juice.jpg" alt="">
+            <img src="Images/tomato juice.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/beetroot.jpg" alt="">
+            <img src="Images/beetroot.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/cucumber.jpg" alt="">
+            <img src="Images/cucumber.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -188,16 +247,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/spinach.jpg" alt="" >
+            <img src="Images/spinach.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/pumpkin.jpg" alt="">
+            <img src="Images/pumpkin.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/image.jpg" alt="">
+            <img src="Images/image.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/caabage.jpg" alt="">
+            <img src="Images/caabage.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -229,16 +288,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/chocolate-shake.jpg" alt="" >
+            <img src="Images/chocolate-shake.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/Vanilla-shake.jpg" alt="">
+            <img src="Images/Vanilla-shake.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/Oreo-shake.jpg" alt="">
+            <img src="Images/Oreo-shake.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/caramel-shake.jpg" alt="">
+            <img src="Images/caramel-shake.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -264,16 +323,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/Almond-shke.jpg" alt="" >
+            <img src="Images/Almond-shke.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/cocnut-shake.jpg" alt="">
+            <img src="Images/cocnut-shake.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/cashew-shake.jpg" alt="">
+            <img src="Images/cashew-shake.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/hazelnut-chocolate-shke.jpg" alt="">
+            <img src="Images/hazelnut-chocolate-shke.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -305,16 +364,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/macrons.jpg" alt="" >
+            <img src="Images/macrons.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/pancakes.jpg" alt="">
+            <img src="Images/pancakes.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/muffins.jpg" alt="">
+            <img src="Images/muffins.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/waffles.jpg" alt="">
+            <img src="Images/waffles.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -341,16 +400,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/Crossiants.jpg" alt="" >
+            <img src="Images/Crossiants.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/cookies.jpg" alt="">
+            <img src="Images/cookies.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/past.jpg" alt="">
+            <img src="Images/past.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/mochie.jpg" alt="">
+            <img src="Images/mochie.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -382,16 +441,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/Drak-chocolate-donut.jpg" alt="" >
+            <img src="Images/Drak-chocolate-donut.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/Cinamon sugar donut.jpg" alt="">
+            <img src="Images/Cinamon sugar donut.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/oreo-cream-donut.jpg" alt="">
+            <img src="Images/oreo-cream-donut.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/white-chocolate-donut.jpg" alt="">
+            <img src="Images/white-chocolate-donut.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -418,16 +477,16 @@
 
     <div class="card-container">
         <div class="card">
-            <img src="Images/Chocolate-dnout.jpg" alt="" >
+            <img src="Images/Chocolate-dnout.jpg" alt="" onclick="showPopup()" >
         </div>
         <div class="card">
-            <img src="Images/caramel-filled-donut.jpg" alt="">
+            <img src="Images/caramel-filled-donut.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/Mango-iced-donut.jpg" alt="">
+            <img src="Images/Mango-iced-donut.jpg" alt="" onclick="showPopup()">
         </div>
         <div class="card">
-            <img src="Images/strawberry-donut.jpg" alt="">
+            <img src="Images/strawberry-donut.jpg" alt="" onclick="showPopup()">
         </div>
     </div>
 
@@ -460,5 +519,7 @@
     <p id="last-p">Contact no: <span id="last-span" style="color: #ff3b3f;">+92-331-2047442</span></p>
 
     <hr class="last-hr">
+
+    <script src="menu.js"></script>
 </body>
 </html>
