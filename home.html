@@ -1,0 +1,369 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smoothies & Shakes shop</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class="marquee-container">
+            <div class="marquee">
+                🌱 Handpicked Fruits, 100% Natural Blends - Because You Deserve the Best! 💚
+            </div>
+        </div>
+               
+       <div class="navbar">
+        <nav>
+          <div class="navdiv">  
+            <ul>
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./aboutus.html">About</a></li>
+                <li><a href="./menu.html">Menu</a></li>
+                <li><a href="./contactus.html">Order Now</a></li>
+                <li><a href="./services.html">Services</a></li>                
+            </ul>
+        </div>
+        </nav>
+        
+       </div>
+       <div class="logo"><img src="Images/logo.png" alt=""></div>
+       <div class="video">
+        <img src="Images/bannerpic.JPG" alt="">
+        <div class="text-overlay">
+            <p>Sip the <span style="color: #ff3b3f; font-family: 'Allura'; font-size: 40px;">freshness</span></p>
+            <h1 id="text-part">Taste the <span class="highlight" style="color: #ffd700; font-family: 'Allura';font-size: 80px;">Happiness</span></h1>
+            <button id="btnbtn"><a href="menu.html">Get your refreshment now!</a></button>
+        </div>
+        </div>
+
+        <img src="Images/Whatsapp.png" id="whtapp" alt="">
+       
+        <div class="Process">
+        <div class="left">
+            <img src="Images/pouring.JPG" alt="">
+        </div>
+        <div class="right">
+          
+        <p id="heading">"The Secret to our Smoothies"</p>
+        <p id="text">At the heart of every smoothie lies nature’s finest bounty 🌿. Our fruits are handpicked from renowned orchards 🍎, including the lush <strong>Himalayan foothills 🏞️</strong>, sun-kissed <strong>California 🌞</strong>, and fertile <strong>Sindh mango groves 🥭</strong>. Grown in hygienic, chemical-free environments 🚜, our organic produce ensures refreshing, nutrient-packed smoothies 🍹. Free from pesticides and preservatives 🚫, every sip is pure and wholesome 🍃. We maintain strict quality controls 🧼 at every stage 🔒, delivering smoothies that taste amazing 😋 and nourish your body with organic energy ⚡. Enjoy our smoothies—embrace nature’s purity 🌺, crafted with care 💖.
+        
+        <br>
+
+        Our commitment goes beyond just taste. We believe that every ingredient should come from a place of care and sustainability 🌱. By sourcing our fruits from organic, eco-friendly farms, we ensure that our smoothies not only benefit your body but also contribute to the well-being of the planet 🌍. Each blend is crafted with love, so when you take a sip, you're supporting a cycle of goodness that starts from the earth and ends with you 🌸. We're proud to offer a product that’s as good for you as it is for the environment 🌎.</p>
+        
+        <hr id="horizontal_hr">
+        </div>
+        
+        </div>
+        <hr id="line_side">
+        <div> </div>
+
+        <h1 id="top-blends">Top Blends</h1>
+
+        <div class="pop-up" id="popupForm">
+        <label for="name" style="font-weight: bold; color: #ff3b3f;">Name:</label>
+        <div class="input_container_nm">
+        <input type="text" id="name" required>
+        </div>
+        
+        <br>
+
+        <label for="number">Phone number:</label>
+        <div class="input-container" style="transform: translateY(-5px);">
+        <input type="tel" id="number">
+        </div>
+
+        <br>
+
+        <label for="address">Address:</label>
+        <div class="input_container">
+        <input type="text" id="address">
+        </div>
+
+        <br>
+
+        <label for="juice">Juice Selection:</label>
+        <div class="input_container">
+        <input type="text" id="juice">
+        </div>
+
+        <br>
+
+        <label for="quantity">Quantity:</label>
+        <div class="input_container">
+        <div class="quantity-selector">
+        <button type="button" id="decrease">-</button>
+        <input type="number" id="quantity" name="quantity" value="1" min="1">
+        <button type="button" id="increase">+</button>
+        </div>
+        </div>
+
+        <label for="instructions" style="font-weight: bold; color: #ff3b3f;">Special instructions: </label>
+        <div class="input_container_inst">
+        <input type="text" id="instructions">
+        </div>
+
+        <br>
+
+        <label for="payment">Payment Method:</label>
+        <div class="input_container">
+        <select id="payment" name="payment">
+        <option value="cod">Cash on Delivery</option>
+        <option value="bank">Pay with Bank Account</option>
+        <option value="jazz">Jazz Cash</option>
+        <option value="easypaisa">Easypaisa</option>
+        </select>
+        </div>
+
+        <button id="ordernow_btn" onclick="closePopup()">Place Order</button>
+        </div>
+
+        <div class="card-container">
+    <!-- Card 1 -->
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="Images/lime juice.jpg" alt="Lime Juice">
+                <span class="hover-text">Click to order</span>
+            </div>
+            <div class="card-back">
+                <h2>Crimson Orchard </h2>
+                <p>“A crisp burst of apple freshness in every sip!”</p>
+                <button onclick="showPopup()">Order Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="Images/apple juice.jpg" alt="Apple Juice">
+                <span class="hover-text">Click to order</span>
+
+            </div>
+            <div class="card-back">
+                <h2>Zesty Citrus Splash</h2>
+                <p>“Lime’s zesty zing to brighten your day!”</p>
+                <button onclick="showPopup()">Order Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card">
+        <div class="card-inner">
+            <div class="card-front">
+                <img src="Images/cinamon juice.jpg" alt="Cinnamon Juice">
+                <span class="hover-text">Click to order</span>
+            </div>
+            <div class="card-back">
+                <h2>Spiced Whirl</h2>
+                <p>“A warm, sweet swirl of cinnamon comfort!”</p>
+                <button onclick="showPopup()">Order Now</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+        <div class="card-text-container">
+        <div class="card-text">
+            <h3>Crimson Orchard 🍏🍎</h3>
+            <p>Experience the crisp, refreshing taste of freshly picked apples in every sip. Bursting with natural sweetness and a hint of tartness, this juice is the perfect blend of nature's best! 🍃</p>
+        </div>
+        <div class="card-text">
+            <h3>Zesty Citrus Splash 🍋🌟</h3>
+            <p>A tangy twist of lime to brighten your day! Packed with vitamin C, this juice gives you that refreshing zing and a boost of energy—perfect for those hot summer days! 🌞🌿</p>
+        </div>
+        <div class="card-text">
+            <h3>Spiced Whirl 🍂✨</h3>
+            <p>A warming delight that combines the richness of cinnamon with a smooth, creamy texture. It’s the perfect blend of spice and sweetness, guaranteed to bring comfort with every sip! 🍁</p>
+        </div>
+        </div>
+
+        <div class="extra-video">
+            <iframe width="860" height="415"
+            src="https://www.youtube.com/embed/C2snJBxfKjY?autoplay=1&mute=1&loop=1&controls=0&modestbranding=1&rel=0&showinfo=0&iv_load_policy=3&playlist=C2snJBxfKjY"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            style="border-radius: 10px; margin-bottom: 10px;">
+            </iframe>
+
+        </div>
+        <div>
+            <h3 class="extra-text" style="font-size: 20px; color: #ff3b3f;">"Freshly Made, Purely Healthy 🍓🥤"</h3>
+            <p class="extra-text" style="font-size: 17px; color:  #333333;">Indulge in our nutrient-packed smoothies and juices, bursting with proteins, calcium, and the goodness of fresh fruits. 🌱💪</p>
+            <p class="extra-text" style="font-size: 17px; color:  #333333;">Feel the difference with every sip, and fuel your body with the best nature has to offer!</p>
+        </div>
+        <hr id="hr-02">
+
+        <h2 id="about-h2">"Our Smoothie Journey: Freshness in Every Pour 🍓🥑"</h2>
+        
+        <div class="About">
+        <div class="left-img">
+        <img src="Images/Final.svg" alt="">
+        </div>
+        
+        <div class="right-about-text"> 
+            <p>Our journey began on a small family farm, where fresh fruits ripened under the sun and the idea of creating something pure and delicious was born. 🌱✨ What started as a passion for blending farm-fresh ingredients into homemade smoothies soon turned into a mission—to share nature’s best with everyone.</p>
+            <br>
+            <p>With a vision of health, taste, and quality, we crafted recipes that bring out the real essence of fruits, free from anything artificial. 🍍🥭 Today, our smoothies have become more than just drinks—they’re a lifestyle, a moment of refreshment, and a promise of pure goodness in every sip! 🍹💖</p>
+        </div>
+        </div>
+        <hr id="hr-03">
+        
+        <div class="videos-section">
+            
+            <div class="video-container">
+            <div class="leftside-video">
+                <img src="Images/lovedworldwide.JPG" alt="">
+            </div>
+            <div class="rightside-text">
+                <h1>Sip Fresh, Anywhere! 🌍🥤</h1>
+                <p>Whether you're relaxing on a tropical beach 🏝️🌊, strolling through vibrant city streets 🚶‍♂️🏙️, or enjoying a cozy café vibe ☕🍃, our smoothies bring you the perfect blend of freshness and flavor. Made with handpicked fruits 🍓🍍, packed with nutrients 💪🥗, and blended to perfection, every sip is a taste of paradise! 🌿✨🍹</p>
+            </div>
+            </div>
+            <hr id="hr-04">
+
+            <div class="video-container">
+                <div class="rightside-video">
+                    <img src="Images/keeppeoplefresh.JPG" alt="">
+                </div>
+                <div class="leftside-text">
+                    <h1>"Freshness in Every Sip 🌿🍓"</h1>
+                    <p>Our smoothies are crafted to keep you feeling refreshed and delightful, no matter your age! 🧃✨ Made with only the freshest, all-natural fruits, every sip brings you closer to pure enjoyment. 🍓🍍 Whether you're young or young at heart, our smoothies are the perfect way to stay energized and healthy! 💪💚</p>
+                </div>
+                </div>
+            <hr id="hr-04">
+            
+                        
+            <div class="video-container">
+                <div class="leftside-video">
+                    <img src="Images/freshpicks.JPG" alt="">
+                </div>
+                <div class="rightside-text">
+                    <h1>"From Farm to Glass 🍓🥕"</h1>
+                    <p>We handpick the freshest fruits and vegetables straight from nature’s best! 🌱🍊 Each ingredient is carefully chosen to create smoothies bursting with natural flavor and nutrients. 🍓🍍 Whether it's farm-fresh berries or ripe, juicy veggies, we ensure every drink is as fresh and wholesome as it gets! 🥑💚</p>
+                </div>
+                </div>
+
+            <hr id="hr-04">
+
+                
+                <div class="video-container">
+                    <div class="rightside-video">
+                        <img src="Images/excitingflavours.JPG" alt="">
+                    </div>
+                    <div class="leftside-text">
+                        <h1>"Explore Our Flavorful Journey 🍹🎉"</h1>
+                        <p>Get ready to tantalize your taste buds with our exciting range of flavors! 🍓🍍 From tropical tanginess to creamy sweetness, each smoothie is packed with unique combinations that bring a burst of freshness in every sip. 🌟🍌 Choose from a variety of flavors that suit your mood and cravings – the adventure never ends! 😋</p>
+                    </div>
+                    </div> 
+        </div>
+        <hr id="hr-04">
+        <h1 id="engagement">"Get your refreshing smoothie now!🥤"</h1>
+
+        <hr id="hr-05">
+
+        <h1 id="FAQs-heading">Frequently Asked Questions 📋❓:</h1>
+
+        <div class="FAQs-container">
+        <div class="FAQs">
+            <h3>Q: What makes your smoothies special? </h3>
+            <p>A: Our smoothies are made with 100% natural and fresh fruits, packed with essential vitamins, minerals, and proteins. We focus on providing healthy, refreshing options that taste amazing and are good for your health!</p>
+
+            <h3>Q: Are your smoothies suitable for all age groups?</h3>
+            <p>A: Absolutely! Our smoothies are crafted to be enjoyed by everyone—from kids to adults—providing the perfect boost for your energy, whether you're at the beach or at work.</p>
+
+            <h3>Q: Do you offer vegan or dairy-free options?</h3>
+            <p>A: Yes, we offer a variety of vegan and dairy-free smoothies made with plant-based milks and fresh fruits. You can enjoy a delicious, healthy treat that fits your lifestyle!</p>
+
+            <h3>Q: Can I customize my smoothie with specific ingredients?</h3>
+            <p>A: Definitely! You can customize your smoothie by choosing from our wide selection of fruits, vegetables, and protein options to suit your taste and health needs.</p>
+
+            <h3>Q: Are your smoothies organic?</h3>
+            <p>A: We prioritize quality and freshness, and we use organic fruits and vegetables whenever possible to ensure that you're getting the healthiest option in every sip.</p>
+
+            <h3>Q: How do you ensure the freshness of your ingredients?</h3>
+            <p>A: We source our ingredients daily from trusted suppliers and local farms to ensure they are always fresh and packed with nutrients. Freshness is key to creating the best smoothies!</p>
+
+            <h3>Q: Do you have seasonal flavors?</h3>
+            <p>A: Yes! We love experimenting with seasonal fruits and flavors. Keep an eye out for our limited-edition smoothies made with the freshest ingredients available throughout the year.</p>
+
+            <h3>Q: How can I place an order for delivery?</h3>
+            <p>A: Ordering is easy! Simply visit our website or use our app to select your favorite smoothie and choose your delivery option. We'll have your smoothie delivered to your door in no time!</p>
+
+        </div>
+        </div>
+
+        <div class="last">
+            <div class="last-box">
+            <div class="follow-us">
+                <h2 class="last-h2">Connect with us on instagram & facebook 
+                    <br>
+                    to stay updated
+                <div class="icon-container">
+                    
+                    <div class="icon-text">
+                    <img src="Images/facebook.png" alt="">
+                    <span>https://www.facebook.com/JuiceSmoothies</span>
+                    </div>
+
+                    <div class="icon-text">
+                    <img src="Images/instagram.png" alt="">
+                    <span>https://www.instagram.com/JuiceSmoothies</span>
+                    </div>
+                    
+                    <div class="icon-text">
+                    <img src="Images/tiktok.png" alt="">
+                    <span>https://www.tiktok.com/@JuiceSmoothies</span>
+                    </div>
+                    </div>
+                    </h2>
+                    </div>
+            <div class="contact-us">
+                <h2 class="last-h2">Get in touch with us for exciting
+                    <br>
+                     discounts & offers
+
+                    <div class="icon-container">
+                        <div class="icon-text">
+                        <img src="Images/telephone-symbol-button (1).png" alt="">
+                        <span>+92-331-2047442</span>
+                        </div>
+                        
+                        <div class="icon-text">
+                        <img src="Images/web (1).png" alt="">
+                        <span>www.juicesmoothies.com</span>
+                        </div>
+                        
+                        <div class="icon-text">
+                        <img src="Images/apple (1).png" alt="">
+                        <span>support@juicesmoothies.com</span>
+                        </div>
+                    </div>
+                </h2>
+                
+            </div>
+            </div>
+        </div>
+
+        <hr class="hr-06">
+        <div class="location">
+        <img  src="Images/Location.png" alt="">
+        <span>Main bazar, unit 11,  street# 24, near pizzaplex </span>
+        </div>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+        <script src="home.js"></script>
+    </body>
+    </html>
